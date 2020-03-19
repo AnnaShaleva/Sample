@@ -8,15 +8,7 @@ namespace MyLibrary
 {
     public class Config
     {
-        public uint Version { get; set; }
-        public ContractDetails Contract { get; set; }
-    }
-
-    public class ContractDetails
-    {
-        public string Author { get; set; }
-        public bool HasStorage { get; set; }
-        public IEnumerable<string> Parameters { get; set; }
-
+        public string Address { get; set; }
+        public string Path { get; set; }
     }
 }

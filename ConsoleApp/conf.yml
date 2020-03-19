@@ -1,5 +1,2 @@
-version: 1
-contract:
-  author: Random Guy
-  hasStorage: false
-  parameters: ['Array', 'String']
+address: your_address
+path: your_path

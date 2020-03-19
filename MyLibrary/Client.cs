@@ -34,7 +34,7 @@ namespace MyLibrary
         /// </summary>
         public void DeployContract(Config configuration)
         {
-            Console.WriteLine($"DeployContract was called with config: \n\tVersion: {configuration.Version}\n\tAuthor: {configuration.Contract.Author}");
+            Console.WriteLine($"DeployContract was called with config: \n\tAddress: {configuration.Address}\n\tPath: {configuration.Path}");
         }
     }
 }
